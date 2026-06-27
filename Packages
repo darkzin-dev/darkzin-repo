@@ -1,0 +1,12 @@
+Package: com.opium.project
+Name: Opium Project
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Description: A modern customization and tweak framework for WhatsApp, focused on UI enhancement, design flexibility, and advanced features.
+Maintainer: darkzin
+Author: darkzin
+Section: Tweaks
+Filename: debs/com.opium.project_1.0.0_iphoneos-arm64.deb
+MD5sum: d41d8cd98f00b204e9800998ecf8427e
+SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Icon: https://i.imgur.com/w8hC4T9.png
