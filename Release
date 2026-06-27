@@ -1,9 +1,9 @@
-Origin: darkzin-repo
-Label: darkzin-repo
+Origin: darkzin repo
+Label: darkzin repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: A minha repo pessoal de tweaks.
-Icon: CydiaIcon.png
+Icon: https://i.imgur.com/w8hC4T9.png
