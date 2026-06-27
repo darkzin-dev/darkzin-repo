@@ -1,8 +1,9 @@
 Origin: darkzin-repo
-Label: Meu Canal/Minha Repo
+Label: darkzin-repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Repositório pessoal de tweaks.
+Description: A minha repo pessoal de tweaks.
+Icon: CydiaIcon.png
