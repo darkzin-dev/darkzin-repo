@@ -1,7 +1,7 @@
 Origin: darkzin repo
 Label: darkzin repo
 Suite: stable
-Version: 1.0
+Version: 0.0.1
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
