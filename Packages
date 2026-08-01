@@ -18,7 +18,7 @@ Name: Opium Project
 Package: r.whatsapp
 Version: 1.0.0
 Architecture: iphoneos-arm64
-Maintainer: teste
+Maintainer: darkzin
 Installed-Size: 96
 Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0)
 Filename: ./debs/remover obsuleto.deb
