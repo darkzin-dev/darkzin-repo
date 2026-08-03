@@ -7,3 +7,4 @@ Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: My repository for projects I build.
 Icon: https://darkzin-dev.github.io/darkzin-repo/CydiaIcon.png
+SileoDepiction: https://darkzin-dev.github.io/darkzin-repo/depictions/meutweak.json
