@@ -12,6 +12,7 @@ SHA256: c0d1d2afbab31e6ab7cff79cc1084ee26a5209e6200194d55a4454530997a24f
 Section: Tweaks
 Description: Override author name, description, and cloud metadata effortlessly.
 Author: darkzin
+Icon: https://i.imgur.com/WWuGbZj.png
 Name: FlexToFix
 
 Package: com.opium.project
