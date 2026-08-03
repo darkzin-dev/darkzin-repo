@@ -1,3 +1,19 @@
+Package: com.darkzin.flextofix
+Version: 1.0.0-14+debug
+Architecture: iphoneos-arm64
+Maintainer: darkzin
+Installed-Size: 204
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/FlexToFix.deb
+Size: 11560
+MD5sum: f72a7b8217fdc035ac27b47f01615082
+SHA1: bd79425d179ffa96290dab89956bd066b577d3e1
+SHA256: c0d1d2afbab31e6ab7cff79cc1084ee26a5209e6200194d55a4454530997a24f
+Section: Tweaks
+Description: Override author name, description, and cloud metadata effortlessly.
+Author: darkzin
+Name: FlexToFix
+
 Package: com.opium.project
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -15,10 +31,10 @@ Author: darkzin
 Icon: https://i.imgur.com/w8hC4T9.png
 Name: Opium Project
 
-Package: r.whatsapp
+Package: teste
 Version: 1.0.0
 Architecture: iphoneos-arm64
-Maintainer: darkzin
+Maintainer: teste
 Installed-Size: 96
 Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0)
 Filename: ./debs/remover obsuleto.deb
@@ -27,8 +43,8 @@ MD5sum: 82153ab5788882ef1462a25daa5e0392
 SHA1: 503b751984727082e8342755ba49031ef7db54fa
 SHA256: f075411a4830477ce0576d7e5e29b43b0b3f3272049b495cede76e92eaab8a98
 Section: System
-Description: Remove the update requirement in any whatsapp version.
+Description: An awesome tool of some sort!!
 Tag: role::hacker
-Author: darkzin & fbi & axoltl
-Name: 
+Author: teste
+Name: teste
 
