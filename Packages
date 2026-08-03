@@ -13,7 +13,7 @@ Section: Tweaks
 Description: Override author name, description, and cloud metadata effortlessly.
 Author: darkzin
 Name: FlexToFix
-Icon: https://darkzin-dev.github.io/iconflextofix.png
+Icon: https://i.imgur.com/WWuGbZj.png
 
 Package: com.opium.project
 Version: 1.0.0
