@@ -42,13 +42,21 @@
             -webkit-font-smoothing: antialiased;
         }
 
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            max-width: 360px;
+            width: 100%;
+        }
+
         .card {
             background-color: var(--card-bg);
             border: 1px solid var(--border);
             border-radius: 16px;
             padding: 36px 28px;
             text-align: center;
-            max-width: 360px;
             width: 100%;
             transition: border-color 0.2s ease;
         }
@@ -128,7 +136,7 @@
             transition: opacity 0.2s ease;
         }
 
-         .btn-logos {
+        .btn-logos {
             width: 20px;
             height: 20px;
             opacity: 0.8;
@@ -139,6 +147,52 @@
 
         .btn:hover .btn-icon {
             opacity: 1;
+        }
+
+        .card2 {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 18px 24px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+            transition: border-color 0.2s ease;
+        }
+
+        .card2:hover {
+            border-color: var(--border-hover);
+        }
+
+        .card2-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-primary);
+            letter-spacing: -0.01em;
+        }
+
+        .card2-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 28px;
+            width: 100%;
+        }
+
+        .card2-logo {
+            width: 22px;
+            height: 22px;
+            object-fit: contain;
+            opacity: 0.75;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+            display: block;
+        }
+
+        .card2-logo:hover {
+            opacity: 1;
+            transform: scale(1.15);
         }
 
         .toast {
@@ -166,32 +220,45 @@
 </head>
 <body>
 
-    <main class="card">
-        <img src="https://github.com/darkzin-dev.png" alt="darkzin avatar" class="avatar">
-        
-        <h1>darkzin-repo</h1>
-        <p>A repository dedicated to publishing my tweaks, and open-source customizations.</p>
-
-        <div class="btn-group">
-            <a href="sileo://source/https://darkzin-dev.github.io/darkzin-repo/" class="btn">
-                <span><img src="https://i.imgur.com/Ayle79o.png" class="btn-logos"></span> Add to Sileo
-            </a>
-              <a href="zbra://sources/add/https://darkzin-dev.github.io/darkzin-repo/" class="btn">
-                <span><img src="https://getzbra.com/assets/zeeb.svg" class="btn-logos"></span> Add to Zebra
-            </a>
+    <div class="container">
+        <main class="card">
+            <img src="https://github.com/darkzin-dev.png" alt="darkzin avatar" class="avatar">
             
-              <div class="btn-group">
-            <a href="cydi://source/https://darkzin-dev.github.io/darkzin-repo/" class="btn">
-                <span><img src="https://i.imgur.com/J5MhwCs.png" class="btn-logos"></span> Add to Cydia
-            </a>
+            <h1>darkzin-repo</h1>
+            <p>A repository dedicated to publishing my tweaks, and open-source customizations.</p>
 
-       
-            <button class="btn" onclick="copyRepoURL()">
-                <img src="https://cdn-icons-png.flaticon.com/512/1621/1621635.png" alt="Copiar" class="btn-icon">
-                Copy URL
-            </button>
-        </div>
-    </main>
+            <div class="btn-group">
+                <a href="sileo://source/https://darkzin-dev.github.io/darkzin-repo/" class="btn">
+                    <span><img src="https://i.imgur.com/Ayle79o.png" class="btn-logos" alt="Sileo"></span> Add to Sileo
+                </a>
+
+                <a href="zbra://sources/add/https://darkzin-dev.github.io/darkzin-repo/" class="btn">
+                    <span><img src="https://getzbra.com/assets/zeeb.svg" class="btn-logos" alt="Zebra"></span> Add to Zebra
+                </a>
+                
+                <a href="cydi://source/https://darkzin-dev.github.io/darkzin-repo/" class="btn">
+                    <span><img src="https://i.imgur.com/J5MhwCs.png" class="btn-logos" alt="Cydia"></span> Add to Cydia
+                </a>
+
+                <button class="btn" onclick="copyRepoURL()">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1621/1621635.png" alt="Copiar" class="btn-icon">
+                    Copy URL
+                </button>
+            </div>
+        </main>
+
+        <section class="card2">
+            <span class="card2-title">Contact me or support.</span>
+            <div class="card2-logos">
+                <a href="https://discord.gg/opusbar" target="_blank">
+                    <img src="https://api.iconify.design/simple-icons:discord.svg?color=%23f4f4f5" alt="Discord" class="card2-logo">
+                </a>
+                <a href="https://instagram.com/insanityscar" target="_blank">
+                    <img src="https://api.iconify.design/simple-icons:instagram.svg?color=%23f4f4f5" alt="Instagram" class="card2-logo">
+                </a>
+            </div>
+        </section>
+    </div>
 
     <div id="toast" class="toast">The URL has been copied to the clipboard.</div>
 
