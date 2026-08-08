@@ -15,23 +15,6 @@ Author: darkzin
 Icon: https://i.imgur.com/WZFUHpq.png
 Name: FlexToFix
 
-Package: com.darkzin.flextofix
-Version: 1.0.0-17+debug
-Architecture: iphoneos-arm64
-Maintainer: darkzin
-Installed-Size: 204
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/FlexToFix Rootfull.deb
-Size: 11556
-MD5sum: dfd68099ad9f04a95e55992f4243653a
-SHA1: a5a262b79fb8a9dff2b49548fe7ebed3233e8610
-SHA256: d920243a0aca79975c329af3dd36987b6c05cba945805cd1175bb053f950b9c3
-Section: Tweaks
-Description: Override author name, description, and cloud metadata effortlessly.
-Author: darkzin
-Icon: https://i.imgur.com/WZFUHpq.png
-Name: FlexToFix
-
 Package: com.opium.project
 Version: 1.0.0
 Architecture: iphoneos-arm64
